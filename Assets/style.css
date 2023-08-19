@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,900&family=Nunito:wght@300;900&display=swap');
+
+ 
+
+*{
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    margin: 0px;
+
+    padding: 0px;
+
+    font-family: 'Nunito', sans-serif;
+
+    min-height: 100vh;
+
+    max-width: 100vw;
+
+    height: 100vh;
+
+}
+
+.Navbar{
+
+    background-color: teal;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: white;
+
+    padding-left: 80px;
+
+    padding-right: 40px;
+
+    height: 100px;
+
+    padding-top: 30px;
+
+ 
+
+}
+
+.Navbar h1{
+
+    line-height: 0px;
+
+}
+
+.Nav-link{
+
+    display: none;
+
+}
+
+.hamburger{
+
+cursor: pointer;
+
+margin-top: 10px;
+
+ 
+
+}
+
+.hamburger .line{
+
+    display: block;
+
+    width: 35px;
+
+    height: 5px;
+
+    margin-bottom: 5px;
+
+    background-color: white;
+
+   
+
+}
+
+.parent1{
+
+    padding-left: 40px;
+
+   
+
+}
+
+.parent1 img{
+
+    width: 90%;
+
+    height: 50vh;
+
+}
+
+.content-parent1 h2{
+
+    padding-top: 80px;
+
+    color: teal;
+
+    font-weight: 800;
+
+    font-size: 3.5rem;
+
+    line-height: 5px;
+
+ 
+
+}
+
+.content-parent1 p{
+
+    text-align: left;
+
+    font-weight: 500;
+
+    font-size: 2rem;
+
+    line-height: 50px;
+
+ 
+
+}
+
+.parent2{
+
+    background: rgb(240, 237, 237);
+
+    padding-left: 40px;
+
+    padding-bottom: 150px;
+
+}
+
+.parent2-child h2{
+
+    color: teal;
+
+    font-weight: 600;
+
+    font-size: 3rem;
+
+    text-align: left;
+
+    line-height: 60px;
+
+}
+
+.parent2-child button{
+
+    background-color: teal;
+
+    color: white;
+
+    width: 200px;
+
+    height: 50px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    font-weight: 600;
+
+    font-size: 1.5rem;
+
+    cursor: pointer;
+
+    box-shadow: 0 1px 3px 2px rgba(31, 31, 31, 0.5);
+
+    transition: all 200ms linear;
+
+}
+
+.parent2 img{
+
+    margin-top: 60px;
+
+    border-radius: 10px;
+
+    width: 90%;
+
+    height: 50vh;
+
+}
+
+ 
+
+.parent3{
+
+    background-color: rgb(8, 180, 180);
+
+    color: white;
+
+    padding-left: 40px;
+
+    padding-bottom: 100px;
+
+    padding-top: 80px;
+
+}
+
+.contactme{
+
+    background-color: white;
+
+    color: teal;
+
+    width: 45%;
+
+    height: 50px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    font-weight: 600;
+
+    font-size: 1.5rem;
+
+    margin-top: 20px;
+
+    box-shadow: 0 1px 3px 2px rgba(92, 91, 91, 0.5);
+
+    transition: all 200ms linear;
+
+    cursor: pointer;
+
+}
+
+.call{
+
+    background-color: teal;
+
+    color: white;
+
+    width: 45%;
+
+    height: 50px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    font-weight: 600;
+
+    font-size: 1.5rem;
+
+    margin-top: 20px;
+
+    box-shadow: 0 1px 3px 2px rgba(90, 89, 89, 0.5);
+
+    transition: all 200ms linear;
+
+    cursor: pointer;
+
+}
+
+.parent3 img{
+
+    display: none;
+
+}
+
+.parent3 p{
+
+    font-weight: 400;
+
+    font-size: 2.7rem;
+
+    line-height: 60px;
+
+    text-align: left;
+
+    margin-top: 0px;
+
+    padding-right: 15px;
+
+}
+
+.buttons{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    width: 90%;
+
+   
+
+}
+
+.footer{
+
+    background-color: teal;
+
+    justify-content: center;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 60px;
+
+}
+
+@media screen  and (min-width:768px) {
+
+    .hamburger{
+
+        display: none;
+
+    }
+
+    .Navbar{
+
+        width: 100vw;
+
+        height: 10vh;
+
+    }
+
+    .Nav-link{
+
+        width: 60vw;
+
+        display: flex;
+
+        padding-right: 80px;
+
+        justify-content: space-between;
+
+    }
+
+    .Nav-link a{
+
+        color: white;
+
+        text-decoration: none;
+
+       
+
+ 
+
+    }
+
+    .parent1{
+
+        display: flex;
+
+        padding-left: 80px;
+
+        justify-content: space-between;
+
+        width: 100vw;
+
+    }
+
+    .parent1 img{
+
+        margin-top: 80px;
+
+        width: 35vw;
+
+        height: 35vh;
+
+        margin-right: 80px;
+
+ 
+
+    }
+
+    .parent1 h2{
+
+        font-size: 2rem;
+
+    }
+
+    .parent1 p{
+
+        font-size: 1.3rem;
+
+        line-height: 25px;
+
+        font-weight: 500;
+
+        text-align: left;
+
+ 
+
+    }
+
+    .content-parent1{
+
+        width: 30%;
+
+    }
+
+    .parent2{
+
+        padding-left: 80px;
+
+        padding-right: 80px;
+
+        width: 100vw;
+
+    }
+
+    .parent2-child{
+
+        display: flex;
+
+        justify-content:space-between;
+
+        width: 100%;
+
+ 
+
+    }
+
+    .parent2-child h2{
+
+        font-size: 1.7rem;
+
+        margin: 0px;
+
+        line-height: 30px;
+
+        margin-top: 60px;
+
+        width: 48%;
+
+    }
+
+   
+
+    .parent2-child button{
+
+        background-color: teal;
+
+        color: white;
+
+        width: 100px;
+
+        height: 35px;
+
+        border-radius: 10px;
+
+        border: none;
+
+        font-weight: 600;
+
+        font-size: .8rem;
+
+        cursor: pointer;
+
+        box-shadow: 0 1px 3px 2px rgba(31, 31, 31, 0.5);
+
+        transition: all 200ms linear;
+
+        float: left;
+
+        padding: 0px;
+
+        width: 15%;
+
+        margin-top: 60px;
+
+       
+
+    }
+
+ 
+
+    .debz{
+
+        display: flex;
+
+        justify-content: space-between;
+
+        max-width: 100%;
+
+         
+
+    }
+
+   
+
+    .push{
+
+        display: flex;
+
+        max-width: 100%;
+
+        justify-content: space-between;
+
+    }
+
+    .debz img{
+
+        width: 30%;
+
+        height: 20vh;
+
+    }
+
+    .push img{
+
+        width: 30%;
+
+        height: 20vh;
+
+    }
+
+   
+
+    .parent3{
+
+        padding-left: 80px;
+
+        padding-right: 80px;
+
+        width: 100vw;
+
+        padding-top: 0px;
+
+        padding-bottom: 0px;
+
+       
+
+    }
+
+    .parent3-item{
+
+        display: flex;
+
+        justify-content: space-between;
+
+        width: 100%;
+
+        margin-top: 0px;
+
+        margin-bottom: 0px;
+
+    }
+
+    .parent3-item p{
+
+        width: 40%;
+
+        font-size: 1.5rem;
+
+        font-weight: 700;
+
+        line-height: 40px;
+
+    }
+
+    .buttons {
+
+        width: 30%;
+
+        justify-content:space-between;
+
+       
+
+       
+
+    }
+
+    .contactme{
+
+        background-color: white;
+
+        color: teal;
+
+        width: 45%;
+
+        height: 45px;
+
+        border-radius: 10px;
+
+        border: none;
+
+        font-weight: 600;
+
+        font-size: .8rem;
+
+        margin-top: 20px;
+
+        box-shadow: 0 1px 3px 2px rgba(92, 91, 91, 0.5);
+
+        transition: all 200ms linear;
+
+        cursor: pointer;
+
+       
+
+    }
+
+    .call{
+
+        background-color: teal;
+
+        color: white;
+
+        width: 45%;
+
+        height: 40px;
+
+        border-radius: 10px;
+
+        border: none;
+
+        font-weight: 600;
+
+        font-size: .8rem;
+
+        margin-top: 20px;
+
+        box-shadow: 0 1px 3px 2px rgba(90, 89, 89, 0.5);
+
+        transition: all 200ms linear;
+
+        cursor: pointer;
+
+    }
+
+    .parent3 img{
+
+        display: inline-block;
+
+       
+
+    }
+
+   
+
+    .top{
+
+        display: flex;
+
+        width: 200px;
+
+        float: right;
+
+        justify-content: end;
+
+       
+
+    }
+
+.down{
+
+    margin-bottom: -5px;
+
+}
+
+ 
+
+ 
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .Nav-link{
+
+        width: 45vw;
+
+       
+
+    }
+
+    .debz img{
+
+        width: 30%;
+
+        height: 30vh;
+
+    }
+
+    .push img{
+
+        width: 30%;
+
+        height: 30vh;
+
+    }
+
+    .parent2-child h2{
+
+         width: 48%;
+
+    }
+
+    .parent2-child button{
+
+        width: 8%;
+
+    }
+
+}
+
+ 
